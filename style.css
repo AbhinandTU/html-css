@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background-color: aliceblue;
+
+}
+.container{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  padding-top: 200px;
+  justify-content:center;
+}
+.wrap{
+  background-image: linear-gradient(to right,
+   blue,red);
+  width: 400px;
+  height: 500px;
+  border-radius: 25px;
+  float:right;
+}
+.text{
+ text-align:center;
+ padding-top: 80px;
+
+}
+.cat-icon{
+  overflow: visible;
+  width: 150px;
+  float: right;
+  padding-right: 120px;
+  padding-top: 40px;
+}
+.line{
+border: solid;
+width: 90px;
+margin-top: 120px;
+margin-left: 150px;
+overflow: hidden;
+color: rgb(6, 158, 108);
+}
+marquee{
+
+}
+h2,b,p{
+  padding: 15px;
+  font-size: 22px;
+  padding-bottom: 30px;
+}
